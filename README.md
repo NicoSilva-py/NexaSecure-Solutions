@@ -38,6 +38,41 @@ nexasecureAPI/
 └── README.md
 ```
 
+## 🔗 Endpoints da API
+
+A API disponibiliza operações CRUD para três módulos principais:
+
+### Clientes
+
+| Método HTTP | Arquivo | Operação |
+|---|---|---|
+| GET | `clientes.php` | Consultar clientes |
+| POST | `cadastrar_clientes.php` | Cadastrar cliente |
+| PUT | `atualizar_cliente.php?id=ID` | Atualizar cliente |
+| DELETE | `excluir_cliente.php?id=ID` | Excluir cliente |
+
+### Ativos
+
+| Método HTTP | Arquivo | Operação |
+|---|---|---|
+| GET | `ativos.php` | Consultar ativos |
+| POST | `cadastrar_ativo.php` | Cadastrar ativo |
+| PUT | `atualizar_ativo.php?id=ID` | Atualizar ativo |
+| DELETE | `excluir_ativo.php?id=ID` | Excluir ativo |
+
+### Ordens de serviço
+
+| Método HTTP | Arquivo | Operação |
+|---|---|---|
+| GET | `ordens_servico.php` | Consultar ordens |
+| POST | `cadastrar_ordem_servico.php` | Cadastrar ordem |
+| PUT | `atualizar_ordem_servico.php?id=ID` | Atualizar ordem |
+| DELETE | `excluir_ordem_servico.php?id=ID` | Excluir ordem |
+
+**Endereço local da API:** `http://localhost:8000`
+
+As operações de atualização e exclusão utilizam o ID do registro como parâmetro na URL. As respostas são retornadas em JSON.
+
 ## Banco de dados
 
 O banco de dados utiliza MySQL e possui tabelas para:
