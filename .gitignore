@@ -1,0 +1,15 @@
+# Credenciais locais
+config.local.php
+.env
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Ignorar arquivos SQL por padrão
+*.sql
+
+# Permitir o banco de dados preparado para publicação
+!database/
+!database/*.sql
