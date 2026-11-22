@@ -110,3 +110,62 @@ Projeto desenvolvido como parte de uma atividade acadêmica, com foco na aplica�
 ## Autor
 
 Desenvolvido como projeto acadêmico de tecnologia e desenvolvimento de sistemas.
+
+
+## 📸 Demonstração da API
+
+Os testes abaixo foram realizados utilizando o Postman.
+
+### 👥 Clientes
+
+**GET — Consulta de clientes**
+
+![GET Clientes](prints/01-get-clientes.png)
+
+**POST — Cadastro de cliente**
+
+![POST Clientes](prints/02-post-clientes.png)
+
+**PUT — Atualização de cliente**
+
+![PUT Clientes](prints/03-put-clientes.png)
+
+**DELETE — Exclusão de cliente**
+
+![DELETE Clientes](prints/04-delete-clientes.png)
+
+### 💻 Ativos
+
+**GET — Consulta de ativos**
+
+![GET Ativos](prints/05-get-ativos.png)
+
+**POST — Cadastro de ativo**
+
+![POST Ativos](prints/06-post-ativos.png)
+
+**PUT — Atualização de ativo**
+
+![PUT Ativos](prints/07-put-ativos.png)
+
+**DELETE — Exclusão de ativo**
+
+![DELETE Ativos](prints/08-delete-ativos.png)
+
+### 🛠️ Ordens de serviço
+
+**GET — Consulta de ordens**
+
+![GET Ordens](prints/09-get-ordens.png)
+
+**POST — Cadastro de ordem**
+
+![POST Ordens](prints/10-post-ordens.png)
+
+**PUT — Atualização de ordem**
+
+![PUT Ordens](prints/11-put-ordens.png)
+
+**DELETE — Exclusão de ordem**
+
+![DELETE Ordens](prints/12-delete-ordens.png)
